@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Jennie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Jennie Survey Form</h1>
+    <p id="description">di isi ya syg</p>
+
+    <form id="survey-form">
+        <label for="name" id="name-label">
+            Name
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+        <label for="email" id="email-label">
+            Email
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </label>
+        <label for="age" id="number-label">
+            Age
+            <input type="number" id="number" placeholder="Umurmu piro bos" min="15" max="39">
+        </label>
+        <label for="dropdown" id="dropdown-label">
+            Menurut kamu jennie orangnya gmn?
+            <select name="dropdown" id="dropdown" required="">
+                <option disabled="" selected="" value="" >pilih 1</option>
+                <option>cantik</option>
+                <option>manis</option>
+            </select>
+        </label>
+        <label for="gaya" id="gaya-label"> Pas ngapain kmu sukanya </label>
+
+      <input type="radio" name="gaya" value="1" checked /> joget <br />
+      <input type="radio" name="gaya" value="2" /> senyum <br />
+      <input type="radio" name="gaya" value="3" /> kayang <br />
+      <input type="radio" name="gaya" value="4" /> sok imut <br />
+      <input type="radio" name="gaya" value="5" /> ketawa <br />
+      <input type="radio" name="gaya" value="6" /> malu <br />
+
+      <br /><br />
+      <label for="pakaian" id="pakaian-label"> Trus kalo pakeannya? </label>
+
+      <input type="checkbox" value="seragam" /> seragam <br />
+      <input type="checkbox" value="hota-pants" /> hot pants <br />
+      <input type="checkbox" value="casual" /> casual <br />
+      <input type="checkbox" value="resmi" /> resmi <br />
+
+      <br /><br />
+
+      <label for="comments" id="comments-label">
+        km maunya gmna? gelud?
+        <textarea id="comments" cols="30" rows="10"></textarea>
+      </label>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
+        
+    </form>
+</body>
+</html>
